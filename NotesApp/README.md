@@ -9,4 +9,4 @@
 - Vite
 - Tailwind Css
 # Journey (How i made it ) - 
-I made this Project as my first ever React + Tailwind 
+**I made this Project as my first ever React + Tailwind Project .. in this Project i used two hooks**
