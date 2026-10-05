@@ -74,7 +74,7 @@ export default function App() {
   
   const DeleteNote = (activeIndex) => {
     const CopyTask = [...task]
-    CopyTask.splice(activeIndex, )
+    CopyTask.splice(activeIndex,1)
     setTask(CopyTask)
 
   }
