@@ -3,7 +3,7 @@
 ## Description - 
 ### its an open source Notes app with  prehistoric pirate theme its preety cool here you can write your notes 
 ### save your and can Demolish notes too it has all the Features as a Basic NotesApp do but its a lil different 
-## with every 3 scroll saved you will get a brand new scroll that you can use to write your own notes ..tbh some scrolls are very unique want to know about the scrolls its yours to find out 
+### with every 3 scroll saved you will get a brand new scroll that you can use to write your own notes ..tbh some scrolls are very unique want to know about the scrolls its yours to find out 
 
 # Tech Stack -
 --1.React js
