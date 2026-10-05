@@ -1,11 +1,11 @@
 {
-  "name": "notes-app",
+  "name": "PATRA",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "chmod +x node_modules/.bin/vite && vite build",
     "lint": "oxlint",
     "preview": "vite preview"
   },
