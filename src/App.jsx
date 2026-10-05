@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { jsx } from 'react/jsx-runtime'
+import  { useEffect, useState } from 'react'
 
 function loadTasks(){ // created a loader function to call for savedData 
   try {
