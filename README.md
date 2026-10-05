@@ -23,8 +23,9 @@
  -  Copy the repo `` clone https://github.com/arpan832/NotesApp/ ``
  -  Download the Dependencies  ``` npm build ```
  -  then Locate the Directory ``` cd PATRA ```
- -  then run the file ``` npm run dev ``` 
-# Demo Link - 
+ -  then run the file ``` npm run dev ```
+   
+# Demo Link - https://patra-sable.vercel.app/
 
 Made with love By @ari001 Hackclub 
 
