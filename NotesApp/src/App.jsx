@@ -26,11 +26,12 @@ export default function App() {
     'https://i.pinimg.com/736x/44/74/2c/44742cf57b06534c337e8a0b0fb78454.jpg',
     "https://i.pinimg.com/736x/f8/93/cb/f893cb2962a5ec989290081903561047.jpg",
     "https://i.pinimg.com/736x/82/1c/2f/821c2fedc33a3a3073a3eb5ed3c5e093.jpg",
-    "https://i.pinimg.com/736x/65/e6/e9/65e6e9def9dc7caafe5994844935dde1.jpg"
+    "https://i.pinimg.com/736x/65/e6/e9/65e6e9def9dc7caafe5994844935dde1.jpg",
+    "https://i.pinimg.com/1200x/a5/dd/42/a5dd4221b815155a2ba8a8057c2b9cd3.jpg",
+    "https://i.pinimg.com/1200x/a2/d7/6e/a2d76e912a8305a5dd352e2d7e7a8721.jpg",
   ]
 
 
-  // localStorage.setItem('task', JSON.stringify(task))
 
   const imageIndex = Math.floor(ChangeImage / 3) % imagePool.length
 
@@ -57,10 +58,12 @@ export default function App() {
     setTask((prev) => [...prev, { title: title.trim(), text: text.trim() }])
     setTitle('')
     setText('')
-    setChangeImage((prev) => prev + 1)  // image index changing logic 
+    setChangeImage((prev) => prev + 1) // index image logic 
+    
+     if ((ChangeImage+1)%3 === 0 ){
+      alert("yo!! you just unlocked a new scroll ")
+     }                           
   }
-
-
 
   const updateTask = (index, field, value) => {
     setTask((prev) =>
@@ -70,13 +73,9 @@ export default function App() {
     )
   }
   
-
-
-
-
   const DeleteNote = (activeIndex) => {
     const CopyTask = [...task]
-    CopyTask.splice(activeIndex, 1)
+    CopyTask.splice(activeIndex, )
     setTask(CopyTask)
 
   }
