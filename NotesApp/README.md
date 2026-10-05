@@ -20,10 +20,10 @@
 - And at last i added an aler msg after getting new scrolls  
 
 # Run The Project - 
- 1 Copy the repo `` clone https://github.com/arpan832/NotesApp/ ``
- 2 Download the Dependencies  ``` npm build ```
- 2 then Locate the Directory ``` cd PATRA ```
- 3.then run the file ``` npm run dev ``` 
+ -  Copy the repo `` clone https://github.com/arpan832/NotesApp/ ``
+ -  Download the Dependencies  ``` npm build ```
+ -  then Locate the Directory ``` cd PATRA ```
+ -  then run the file ``` npm run dev ``` 
 # Demo Link - 
 
 Made with love By @ari001 Hackclub 
