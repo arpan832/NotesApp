@@ -21,7 +21,7 @@
 
 # Run The Project - 
  -  Copy the repo `` clone https://github.com/arpan832/NotesApp/ ``
- -  Download the Dependencies  ``` npm build ```
+ -  Download the Dependencies  ``` npm run build ```
  -  then Locate the Directory ``` cd PATRA ```
  -  then run the file ``` npm run dev ```
    
